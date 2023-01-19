@@ -30,8 +30,8 @@ var p=Object.defineProperty;var f=(r,e,t)=>e in r?p(r,e,{enumerable:!0,configura
             <span>Current Weather in </span></br>
             <input/>
         </div>
-    `),d=class{};let i=d;c(i,"app",document.querySelector("#app")),c(i,"location","Imus"),c(i,"render",async()=>{d.app.innerHTML=`
+    `),d=class{};let i=d;c(i,"app",document.querySelector("#app")),c(i,"location","Imus"),c(i,"render",()=>{d.app.innerHTML=`
             ${h()}
-            ${await u()}
+            ${u()}
             ${m()}
         `});i.render();
