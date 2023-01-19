@@ -1,6 +1,6 @@
 # weatherApp
 
-live preview : WIP
+live preview : https://vikyw89.github.io/weatherApp/
 
 <section id="assignment">
   <h3><a href="#assignment" class="anchor-link">Assignment</a></h3>
