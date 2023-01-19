@@ -7,10 +7,10 @@ class UI {
 
     static location = 'Imus'
 
-    static render = async() => {
+    static render = () => {
         this.app.innerHTML =`
             ${Header()}
-            ${await Main()}
+            ${Main()}
             ${Footer()}
         `
     }
